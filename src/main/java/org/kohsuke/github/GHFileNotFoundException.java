@@ -17,7 +17,7 @@ import javax.annotation.Nonnull;
 public class GHFileNotFoundException extends FileNotFoundException {
 
     /** The response header fields. */
-    protected Map<String, List<String>> responseHeaderFields;
+    protected Map<String, List<String>> responseHeaderFields = Map.of();
 
     /**
      * Instantiates a new Gh file not found exception.
